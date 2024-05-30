@@ -4,6 +4,10 @@ body {
     font-family: "Source Sans 3", sans-serif;
     display: flex;
     justify-content: space-around;
+    @media screen and (max-width:1076px) {
+        flex-direction: column;
+        background: linear-gradient(180deg, rgba(245, 186, 206) 0 50%,#001E87 50% 100% );
+    }
 }
 #cardmessi {
     background-color: rgb(35, 31, 32);
