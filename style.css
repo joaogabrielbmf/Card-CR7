@@ -30,10 +30,10 @@ body {
     position: absolute;
 }
 #messimg {
-    height: 320px;
+    height: 290px;
     position: absolute;
     width: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 140px;
 }
 #estatisticasmessi {
@@ -80,8 +80,7 @@ body {
     height: 360px;
     position: absolute;
     margin-top: 0px;
-    margin-right: 100px;
-    margin-left: 180px;
+    margin-left: 130px;
 }
 #estatisticascr7 {
     margin-left: 10px;
