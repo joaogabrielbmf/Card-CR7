@@ -5,8 +5,10 @@ body {
     display: flex;
     justify-content: space-around;
     @media screen and (max-width:1076px) {
+        display: flex;
         flex-direction: column;
         background: linear-gradient(180deg, rgba(245, 186, 206) 0 50%,#001E87 50% 100% );
+        justify-content: space-around;
     }
 }
 #cardmessi {
@@ -43,6 +45,9 @@ body {
     background-color: #FFEE00;
     margin: 40px 0 40px;
     border-radius: 20px;
+    @media screen and (max-width:1076px) {
+        height: 615px;
+    }
 }
 #backcr7 {
     width: 436px;
