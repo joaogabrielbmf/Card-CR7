@@ -52,7 +52,7 @@ body {
     margin: 40px 0 40px;
     border-radius: 20px;
     @media screen and (max-width:1076px) {
-        height: 650px;
+        height: 670px;
         padding-bottom: 10px;
         margin: 20px auto 20px;
         width: 400px;
@@ -65,6 +65,10 @@ body {
     position: absolute;
     margin: auto;
     opacity: 0.3;
+    @media screen and (max-width:1076px) {
+        width: 400px;
+        height: 670px;
+    }
 }
 #escudo {
     width: 180px;
