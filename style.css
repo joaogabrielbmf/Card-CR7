@@ -66,8 +66,7 @@ body {
     margin: auto;
     opacity: 0.3;
     @media screen and (max-width:1076px) {
-        width: 400px;
-        height: 670px;
+        display: none;
     }
 }
 #escudo {
@@ -80,8 +79,12 @@ body {
     height: 360px;
     position: absolute;
     margin-top: 0px;
-    margin-left: 160px;
-    overflow: clip;
+    margin-left: 180px;
+    @media screen and (max-width:1076px) {
+        width: 250px;
+        height: auto;
+        margin-left: 150px;
+    }
 }
 #estatisticascr7 {
     margin-left: 10px;
