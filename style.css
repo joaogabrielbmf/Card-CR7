@@ -52,7 +52,7 @@ body {
     margin: 40px 0 40px;
     border-radius: 20px;
     @media screen and (max-width:1076px) {
-        height: 670px;
+        height: 650px;
         padding-bottom: 10px;
         margin: 20px auto 20px;
         width: 400px;
